@@ -39,11 +39,11 @@ export default function Home(props) {
       </Head>
       <section>
         <p className={utilStyles.headingMd}>
-          私はエンジニアの勉強をしています。もっともっと勉強を頑張るしん
+          私はエンジニアの勉強をしています。もっともっと頑張るしん
         </p>
       </section>
       <section>
-        <h2>📝エンジニアのブログ</h2>
+        <h2>📝エンジニアのブログしん</h2>
         <div className={styles.grid}>
           {postData.map(({ id, title, date, thumbnail }) => (
             <article key={id}>
